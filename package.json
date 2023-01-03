@@ -6,10 +6,12 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "nuxt": "^3.0.0",
-    "@nuxt-themes/docus": "^1.1.5"
+    "@nuxt-themes/docus": "^1.1.5",
+    "gh-pages": "^4.0.0",
+    "nuxt": "^3.0.0"
   }
 }
