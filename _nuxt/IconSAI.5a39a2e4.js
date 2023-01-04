@@ -1,1 +1,0 @@
-import{a as s,o as e,b as o,e as t}from"./entry.f5c528a8.js";const c=""+globalThis.__publicAssetsURL("sai_nt.png"),n={},_=t("img",{src:c},null,-1),a=[_];function r(i,l){return e(),o("div",null,a)}const p=s(n,[["render",r]]);export{p as default};
