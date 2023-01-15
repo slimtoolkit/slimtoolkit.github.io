@@ -19,3 +19,5 @@ npm run generate
 ```bash
 npm run deploy
 ```
+
+note: `npm run deploy` deletes `CNAME` and `.nojekyll`, which need to be restored
