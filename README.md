@@ -5,7 +5,7 @@
 Install dependencies:
 
 ```bash
-npm install
+npm install (or `npm ci`)
 ```
 
 ## Generate Static Site
@@ -20,4 +20,4 @@ npm run generate
 npm run deploy
 ```
 
-note: `npm run deploy` deletes `CNAME` and `.nojekyll`, which need to be restored
+note: `npm run deploy` may delete `CNAME` and `.nojekyll`, which need to be restored
